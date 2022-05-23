@@ -1,0 +1,8 @@
+{
+    "plugins": [ //перечислити плагіни які нас цікавлять
+        "@babel/plugin-proposal-object-rest-spread", //плагін для роботи з спред оператором
+        //потрібно сюди записати а потім встановити (в терміналі npm i -D @babel/plugin-proposal-object-rest-spread (name))
+        "@babel/plugin-transform-arrow-functions",
+        "@babel/plugin-transform-template-literals"
+    ]
+}
