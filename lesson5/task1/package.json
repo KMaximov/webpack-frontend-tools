@@ -6,8 +6,8 @@
   "scripts": {
     "comment": "//по дефолту шукає відносно файла package.json() файл в папці src/index.js, якщо хочемо змінити то вказуємо",
     "coment": "webpack ./src/my-index.js -p(скорочено для продакшн) та -d(скорочено для девелоп)...в останніх версіях не працює",
-    "build": "webpack ./src/my-index.js -p ",
-    "watch": "webpack ./src/my-index.js -d --devtool eval-source-maps -w"
+    "build:scripts": "webpack ./src/my-index.js -p ",
+    "watch:scripts": "webpack ./src/my-index.js -d --devtool eval-source-maps -w"
   },
   "keywords": [],
   "author": "",
