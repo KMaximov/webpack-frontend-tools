@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode=development --devtool eval-source-map --open",
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "webpack --mode=production",
-    "start": "webpack-dev-server --mode=development --devtool eval-source-map --open"
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
